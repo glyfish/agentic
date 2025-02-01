@@ -1,0 +1,17 @@
+.chatgpt_key
+.langsmith_key
+.DS_Store
+__pycache__/
+*.pyc
+logs/*
+!logs/.gitkeep
+.ropeproject
+*.log
+*.aux
+*.out
+*.gz
+*.fdb_latexmk
+*.fls
+*.pyg
+*.bak
+_minted*
