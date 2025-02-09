@@ -3,15 +3,7 @@ from langchain_openai import OpenAI, ChatOpenAI
 from langchain.prompts import PromptTemplate 
 from langchain.chains import LLMChain
 from langchain.schema.runnable import RunnablePassthrough, RunnableLambda, RunnableSequence
-from api_env import set_chatgpt_env, set_langsmith_env
-
-def log_input(x):
-    print("\n🔍 INPUT DATA:", x)
-    return x
-
-def log_output(x):
-    print("\n✅ OUTPUT RESULT:", x)
-    return x
+from langchain_utils import set_chatgpt_env, set_langsmith_env, log_input, log_output
 
 set_chatgpt_env()
 set_langsmith_env()
