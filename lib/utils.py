@@ -16,6 +16,10 @@ def set_langsmith_env(project_name="pr-crushing-rowing-30", tracing=False):
     os.environ["LANGCHAIN_PROJECT"] = "pr-crushing-rowing-30"
 
 
+def set_tavily_env():
+    os.environ["TAVILY_API_KEY"] = load_api_key("../.tavily_key")
+
+
 def log_input(x):
     print("\n🔍 INPUT DATA:", x)
     return x
