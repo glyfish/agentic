@@ -1,6 +1,7 @@
 .chatgpt_key
 .langsmith_key
 .tavily_key
+.env
 .DS_Store
 __pycache__/
 *.pyc
