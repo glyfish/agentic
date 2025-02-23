@@ -1,6 +1,6 @@
 # LLM Tutorials
 
-This repository contains tutorials on how to use Large Language Models (LLMs) with code examples in Python from the book *Langchain Crash Course*.
+This repository contains tutorials for writing agentic applications using Large Language Models (LLMs).
 
 ## Tutorials
 
