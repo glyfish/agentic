@@ -120,6 +120,7 @@ parso==0.8.4
 pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.6
+plotext==5.3.2
 posthog==3.13.0
 prompt_toolkit==3.0.50
 propcache==0.2.1
@@ -145,7 +146,7 @@ python-dotenv==1.0.1
 pytz==2025.1
 PyYAML==6.0.2
 pyzmq==26.2.1
--e git+ssh://git@github.com/glyfish/agentic.git@67243eda31105775e1d69ee10bf11c0775ea0d2f#egg=react_agent&subdirectory=apps/react-agent
+-e git+ssh://git@github.com/glyfish/agentic.git@498a1161c596619adae5f2d3af64bd1e0046f593#egg=react_agent&subdirectory=apps/react-agent
 referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
